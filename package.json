@@ -1,0 +1,31 @@
+{
+	"name": "bedrock-physics",
+	"version": "1.0.0",
+	"description": "Bedrock port of 'prismarine-physics'",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SkyLake-git/bedrock-physics.git"
+	},
+	"keywords": [
+		"bedrock"
+	],
+	"author": "SkyLake",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/SkyLake-git/bedrock-physics/issues"
+	},
+	"homepage": "https://github.com/SkyLake-git/bedrock-physics#readme",
+	"dependencies": {
+		"bedrock-sync-world": "github:SkyLake-git/bedrock-sync-world",
+		"data-registries": "github:SkyLake-git/data-registries",
+		"minecraft-data": "^3.27.0",
+		"minemath": "github:SkyLake-git/minemath",
+		"prismarine-block": "^1.16.3",
+		"prismarine-nbt": "^2.2.1",
+		"prismarine-registry": "^1.7.0"
+	}
+}
