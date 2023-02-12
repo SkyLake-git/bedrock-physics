@@ -89,7 +89,7 @@ type PhysicsSettings = {
 
 export function clamp(min: number, x: number, max: number)
 
-export function Physics(mcData: IndexedData, world: WorldBlockDataProvider): PlayerState
+export function Physics(mcData: IndexedData, world: WorldBlockDataProvider): PhysicsSettings
 
 export function getStatusEffectNamesForVersion(): {
 	jumpBoostEffectName: 'jump_boost',
