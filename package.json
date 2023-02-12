@@ -1,6 +1,6 @@
 {
 	"name": "bedrock-physics",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Bedrock port of 'prismarine-physics'",
 	"main": "index.js",
 	"scripts": {
